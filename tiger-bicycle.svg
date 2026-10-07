@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" width="900" height="650">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8d8f0"/>
+      <stop offset="1" stop-color="#e8f6fd"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7ae"/>
+      <stop offset="1" stop-color="#ffd93b"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="650" fill="url(#sky)"/>
+  <circle cx="760" cy="95" r="55" fill="url(#sun)"/>
+  <ellipse cx="140" cy="90" rx="80" ry="26" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="330" cy="60" rx="55" ry="20" fill="#ffffff" opacity="0.6"/>
+  <ellipse cx="560" cy="120" rx="65" ry="22" fill="#ffffff" opacity="0.7"/>
+
+  <rect x="0" y="520" width="900" height="130" fill="#82cd52"/>
+  <path d="M0 520 Q 225 508 450 520 T 900 520" fill="none" stroke="#5aa030" stroke-width="4"/>
+  <circle cx="90" cy="555" r="6" fill="#5aa030"/>
+  <circle cx="700" cy="570" r="7" fill="#5aa030"/>
+  <circle cx="820" cy="545" r="5" fill="#5aa030"/>
+
+  <!-- ===== BICYCLE ===== -->
+  <g>
+    <circle cx="250" cy="470" r="70" fill="#fdfdfd" stroke="#2b2b2b" stroke-width="9"/>
+    <circle cx="250" cy="470" r="58" fill="none" stroke="#9a9a9a" stroke-width="2"/>
+    <g stroke="#a8a8a8" stroke-width="2">
+      <line x1="250" y1="412" x2="250" y2="528"/>
+      <line x1="192" y1="470" x2="308" y2="470"/>
+      <line x1="209" y1="429" x2="291" y2="511"/>
+      <line x1="291" y1="429" x2="209" y2="511"/>
+    </g>
+    <circle cx="250" cy="470" r="9" fill="#444"/>
+  </g>
+  <g>
+    <circle cx="610" cy="470" r="70" fill="#fdfdfd" stroke="#2b2b2b" stroke-width="9"/>
+    <circle cx="610" cy="470" r="58" fill="none" stroke="#9a9a9a" stroke-width="2"/>
+    <g stroke="#a8a8a8" stroke-width="2">
+      <line x1="610" y1="412" x2="610" y2="528"/>
+      <line x1="552" y1="470" x2="668" y2="470"/>
+      <line x1="569" y1="429" x2="651" y2="511"/>
+      <line x1="651" y1="429" x2="569" y2="511"/>
+    </g>
+    <circle cx="610" cy="470" r="9" fill="#444"/>
+  </g>
+
+  <g stroke="#e0492f" stroke-width="11" stroke-linecap="round" fill="none">
+    <line x1="250" y1="470" x2="385" y2="350"/>
+    <line x1="385" y1="350" x2="525" y2="345"/>
+    <line x1="525" y1="345" x2="610" y2="470"/>
+    <line x1="455" y1="470" x2="525" y2="345"/>
+    <line x1="455" y1="470" x2="385" y2="350"/>
+    <line x1="455" y1="470" x2="610" y2="470"/>
+    <line x1="610" y1="470" x2="545" y2="330"/>
+  </g>
+  <line x1="545" y1="330" x2="525" y2="345" stroke="#c93a24" stroke-width="14" stroke-linecap="round"/>
+  <path d="M545 330 Q 535 300 560 292" stroke="#333" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M560 292 Q 590 288 592 310" stroke="#333" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <line x1="385" y1="350" x2="380" y2="322" stroke="#333" stroke-width="8"/>
+  <rect x="352" y="310" width="58" height="16" rx="8" fill="#1f1f1f"/>
+  <circle cx="455" cy="470" r="13" fill="#555"/>
+  <g stroke="#555" stroke-width="7" stroke-linecap="round">
+    <line x1="455" y1="470" x2="488" y2="503"/>
+    <line x1="455" y1="470" x2="422" y2="437"/>
+  </g>
+  <rect x="476" y="498" width="28" height="11" rx="5" fill="#222"/>
+  <rect x="410" y="432" width="28" height="11" rx="5" fill="#222"/>
+
+  <!-- ===== TIGER ===== -->
+  <!-- long striped tail -->
+  <path d="M320 300 Q 262 288 252 235 Q 250 210 275 205" fill="none" stroke="#f8862b" stroke-width="15" stroke-linecap="round"/>
+  <g stroke="#33261a" stroke-width="15" fill="none" stroke-linecap="butt">
+    <path d="M286 262 Q 285 258 283 254"/>
+    <path d="M270 236 Q 269 232 267 228"/>
+  </g>
+  <path d="M275 205 Q 283 200 291 208" fill="none" stroke="#33261a" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- legs to pedals -->
+  <line x1="395" y1="335" x2="488" y2="503" stroke="#f8862b" stroke-width="12" stroke-linecap="round"/>
+  <line x1="415" y1="335" x2="422" y2="437" stroke="#f8862b" stroke-width="12" stroke-linecap="round"/>
+  <!-- legs stripes -->
+  <g stroke="#33261a" stroke-width="12" stroke-linecap="butt">
+    <line x1="440" y1="410" x2="452" y2="414"/>
+    <line x1="415" y1="385" x2="427" y2="389"/>
+  </g>
+  <ellipse cx="492" cy="508" rx="18" ry="9" fill="#f8862b"/>
+  <ellipse cx="425" cy="440" rx="18" ry="9" fill="#f8862b"/>
+
+  <!-- body -->
+  <ellipse cx="395" cy="295" rx="85" ry="58" fill="#f8862b" stroke="#d16a14" stroke-width="3"/>
+  <!-- body stripes -->
+  <g stroke="#33261a" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M340 250 Q 348 264 344 282"/>
+    <path d="M362 243 Q 370 258 365 278"/>
+    <path d="M424 243 Q 416 258 421 278"/>
+    <path d="M444 255 Q 436 268 441 285"/>
+    <path d="M352 338 Q 360 326 357 312"/>
+    <path d="M432 338 Q 425 326 429 312"/>
+  </g>
+  <ellipse cx="395" cy="322" rx="45" ry="28" fill="#fde3cc" opacity="0.85"/>
+
+  <!-- front arm to handlebar -->
+  <path d="M445 296 Q 500 308 555 300" stroke="#f8862b" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M500 304 L 508 316" stroke="#33261a" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="558" cy="300" r="12" fill="#fde3cc" stroke="#d16a14" stroke-width="2.5"/>
+
+  <!-- neck -->
+  <path d="M455 275 Q 490 250 498 205" stroke="#f8862b" stroke-width="34" fill="none" stroke-linecap="round"/>
+
+  <!-- head -->
+  <circle cx="500" cy="180" r="28" fill="#f8862b" stroke="#d16a14" stroke-width="3"/>
+  <!-- ears -->
+  <circle cx="478" cy="158" r="9" fill="#f8862b" stroke="#d16a14" stroke-width="2.5"/>
+  <circle cx="522" cy="158" r="9" fill="#f8862b" stroke="#d16a14" stroke-width="2.5"/>
+  <circle cx="478" cy="158" r="4" fill="#8a4a12"/>
+  <circle cx="522" cy="158" r="4" fill="#8a4a12"/>
+  <!-- cheek ruff -->
+  <path d="M476 188 Q 468 192 472 200 M524 188 Q 532 192 528 200" fill="none" stroke="#fde3cc" stroke-width="5" stroke-linecap="round"/>
+  <!-- white muzzle -->
+  <ellipse cx="500" cy="196" rx="18" ry="14" fill="#fde3cc"/>
+  <!-- head stripes -->
+  <g stroke="#33261a" stroke-width="4" stroke-linecap="round">
+    <path d="M490 156 L 492 166"/>
+    <path d="M500 154 L 500 164"/>
+    <path d="M510 156 L 508 166"/>
+    <path d="M477 176 L 485 178"/>
+    <path d="M523 176 L 515 178"/>
+  </g>
+  <!-- nose & mouth -->
+  <path d="M494 190 L 506 190 L 500 198 Z" fill="#d15a7a"/>
+  <path d="M500 198 L 500 203 M500 203 Q 493 209 487 205 M500 203 Q 507 209 513 205" fill="none" stroke="#7a3a10" stroke-width="2" stroke-linecap="round"/>
+  <!-- eyes -->
+  <circle cx="489" cy="174" r="6" fill="#ffffff"/>
+  <circle cx="511" cy="174" r="6" fill="#ffffff"/>
+  <circle cx="490" cy="175" r="3.4" fill="#2e7a3e"/>
+  <circle cx="512" cy="175" r="3.4" fill="#2e7a3e"/>
+  <circle cx="491" cy="173" r="1.2" fill="#fff"/>
+  <circle cx="513" cy="173" r="1.2" fill="#fff"/>
+
+  <!-- motion lines -->
+  <g stroke="#7fb3d5" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7">
+    <line x1="80" y1="380" x2="140" y2="380"/>
+    <line x1="60" y1="420" x2="150" y2="420"/>
+    <line x1="95" y1="460" x2="160" y2="460"/>
+  </g>
+</svg>
